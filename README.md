@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="art/logo.png" alt="Shortcuts Logo" width="600">
+    <img src="art/logo.png" alt="Shortcuts Logo">
 </p>
 
 <h1 align="center">Filament Shortcuts</h1>
@@ -22,7 +22,7 @@
 ## 🎬 Demo
 
 <p align="center">
-    <img src="art/video.gif" alt="Shortcuts Demo" width="600">
+    <img src="art/video.gif" alt="Shortcuts Demo">
 </p>
 
 Just press any key combination and it gets saved automatically. Great for apps where users need their own custom shortcuts.
