@@ -1,0 +1,50 @@
+{
+    "name": "aqjw/shortcuts",
+    "description": "A Filament form field for recording and displaying custom keyboard shortcuts.",
+    "keywords": [
+        "aqjw",
+        "laravel",
+        "shortcuts",
+        "keyboard",
+        "filament"
+    ],
+    "homepage": "https://github.com/aqjw/shortcuts",
+    "support": {
+        "issues": "https://github.com/aqjw/shortcuts/issues",
+        "source": "https://github.com/aqjw/shortcuts"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Shever",
+            "email": "anton.shever96@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/forms": "^4.0",
+        "laravel/pint": "^1.25",
+        "spatie/laravel-package-tools": "^1.15.0"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^8.1.1||^7.10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aqjw\\Shortcuts\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aqjw\\Shortcuts\\ShortcutsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
