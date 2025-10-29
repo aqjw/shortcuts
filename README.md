@@ -38,17 +38,10 @@ composer require aqjw/shortcuts
 ```
 
 ## 🎨 Registering Styles
-In order for component styles to be processed, you must add this package's views to your Tailwind CSS configuration:
+In order for component styles to be processed, you must add this package's views to [your theme](https://filamentphp.com/docs/4.x/advanced/assets#using-tailwind-css-in-plugins) file (e.g., resources/css/filament/admin/theme.css):
 
 ```js
-// tailwind.config.js
-export default {
-    content: [
-        './resources/**/*.blade.php',
-        './vendor/filament/**/*.blade.php',
-        './vendor/aqjw/shortcuts/resources/views/**/*.blade.php',
-    ],
-}
+@source '../../../../vendor/aqjw/shortcuts/resources/views';
 ```
 
 ## 🚀 Usage
